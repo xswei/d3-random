@@ -48,7 +48,7 @@ d3.randomUniform(1, 5)(); // 返回一个大于等于 1 且小于 5 的随机数
 
 <a name="randomExponential" href="#randomExponential">#</a> d3.<b>randomExponential</b>(<i>lambda</i>) [<>](https://github.com/d3/d3-random/blob/master/src/exponential.js "Source")
 
-返回一个服从 [exponential distribution(指数分布)](https://en.wikipedia.org/wiki/Exponential_distribution) 的随机数生成函数。其中率参数为 *lambda* ；等价于给定时间区间内均值为 1 / *lambda* 的 [Poisson process(泊松过程)](https://en.wikipedia.org/wiki/Poisson_point_process) 时间发生次数。例如，exponential(1/40) 表示在平均每 40 个单位时间内发生一次事件之间的随机时间。 --- (**最后一句不是很理解**)--- For example, exponential(1/40) generates random times between events where, on average, one event occurs every 40 units of time.
+返回一个服从 [exponential distribution(指数分布)](https://en.wikipedia.org/wiki/Exponential_distribution) 的随机数生成函数。其中率参数为 *lambda* ；等价于给定时间区间内均值为 1 / *lambda* 的 [Poisson process(泊松过程)](https://en.wikipedia.org/wiki/Poisson_point_process) 时间发生次数。例如，exponential(1/40) 表示在平均每 40 个单位时间内发生一次事件之间的随机时间。 
 
 <a name="random_source" href="#random_source">#</a> <i>random</i>.<b>source</b>(<i>source</i>)
 
